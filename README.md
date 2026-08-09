@@ -32,5 +32,54 @@ Generated: 2026-08-09
 
 ---
 
+## Added from GitHub search (top finance/trading projects) — Snapshot: 2026-08-09
 
+### LLMs / Agentic / Modern stacks
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework. — Stars: 96,691 — Snapshot: 2026-08-09
+- [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — Vibe-Trading: personal trading agent / Vibe ecosystem. — Stars: 30,404 — Snapshot: 2026-08-09
+- [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) — AI-Trader: fully-automated agent-native trading. — Stars: 21,216 — Snapshot: 2026-08-09
 
+### Data / Platforms / Terminals
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) — Open Data Platform for analysts, quants and AI agents. — Stars: 71,636 — Snapshot: 2026-08-09
+- [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) — Modern finance terminal and analytics. — Stars: 30,020 — Snapshot: 2026-08-09
+- [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) — China A-Share full-stack data toolkit (43 endpoints). — Stars: 8,487 — Snapshot: 2026-08-09
+
+### Backtesting / Research engines
+- [QuantConnect/Lean](https://github.com/QuantConnect/Lean) — LEAN Algorithmic Trading Engine (Python, C#). — Stars: 21,125 — Snapshot: 2026-08-09
+- [mementum/backtrader](https://github.com/mementum/backtrader) — backtrader: Python backtesting library. — Stars: 22,779 — Snapshot: 2026-08-09
+- [polakowo/vectorbt](https://github.com/polakowo/vectorbt) — High-performance backtesting/analysis engine. — Stars: 8,614 — Snapshot: 2026-08-09
+
+### Algorithmic / Trading frameworks & bots
+- [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) — Free open-source crypto trading bot. — Stars: 53,095 — Snapshot: 2026-08-09
+- [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) — AI quantitative trading platform. — Stars: 10,408 — Snapshot: 2026-08-09
+- [jesse-ai/jesse](https://github.com/jesse-ai/jesse) — Advanced crypto trading bot (Python). — Stars: 8,302 — Snapshot: 2026-08-09
+- [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) — Visual, multi-server crypto trading platform. — Stars: 5,607 — Snapshot: 2026-08-09
+- [askmike/gekko](https://github.com/askmike/gekko) — Gekko bitcoin trading bot (legacy). — Stars: 10,187 — Snapshot: 2026-08-09
+
+### Market APIs & Integrations
+- [ccxt/ccxt](https://github.com/ccxt/ccxt) — Unified trading API for 100+ crypto exchanges. — Stars: 43,570 — Snapshot: 2026-08-09
+- [sammchardy/python-binance](https://github.com/sammchardy/python-binance) — Binance API client for Python. — Stars: 7,197 — Snapshot: 2026-08-09
+- [alpacahq/alpaca-py](https://github.com/alpacahq/alpaca-py) — Official Alpaca Python SDK. — Stars: 1,451 — Snapshot: 2026-08-09
+
+### Quant / ML / Research tooling
+- [microsoft/qlib](https://github.com/microsoft/qlib) — AI-oriented quantitative investment platform. — Stars: 47,191 — Snapshot: 2026-08-09
+- [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) — ML for trading code / notebooks. — Stars: 20,355 — Snapshot: 2026-08-09
+- [akfamily/akshare](https://github.com/akfamily/akshare) — AKShare: financial data interface library. — Stars: 21,888 — Snapshot: 2026-08-09
+- [goldmansachs/gs-quant](https://github.com/goldmansachs/gs-quant) — Goldman Sachs quantitative toolkit. — Stars: 11,897 — Snapshot: 2026-08-09
+- [ranaroussi/quantstats](https://github.com/ranaroussi/quantstats) — Portfolio analytics for quants. — Stars: 7,531 — Snapshot: 2026-08-09
+
+### Technical analysis / indicators / helpers
+- [bukosabino/ta](https://github.com/bukosabino/ta) — TA indicators in pandas/numpy. — Stars: 5,140 — Snapshot: 2026-08-09
+- [kand-ta/kand](https://github.com/kand-ta/kand) — Kand: fast technical analysis (Rust / Python / WASM). — Stars: 562 — Snapshot: 2026-08-09
+
+### Education / Collections / Awesome lists
+- [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) — Curated quant libraries & resources. — Stars: 28,559 — Snapshot: 2026-08-09
+- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — Awesome list for systematic trading. — Stars: 13,066 — Snapshot: 2026-08-09
+- [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) — AI & deep learning in finance curated. — Stars: 6,368 — Snapshot: 2026-08-09
+
+---
+
+Notes
+- Star counts are snapshot values from searches performed on 2026-08-09. Live counts on GitHub may differ.
+- I prioritized high-star, actively maintained projects across categories: data, engines, bots, ML/quant tooling and integration libraries.
+- I can reformat the README into clearer categories, add a table of contents, badges, or open a PR instead of committing directly.
