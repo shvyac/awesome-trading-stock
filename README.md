@@ -30,6 +30,10 @@ Generated: 2026-08-09
 ## Misc / Related Tools
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Financial services related repo by Anthropics. — Stars: 34128 — Snapshot: 2026-08-09
 
+---
+
+## Added from GitHub search (top finance/trading projects) — Snapshot: 2026-08-09
+
 ### LLMs / Agentic / Modern stacks
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework. — Stars: 96,691 — Snapshot: 2026-08-09
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — Vibe-Trading: personal trading agent / Vibe ecosystem. — Stars: 30,404 — Snapshot: 2026-08-09
@@ -75,7 +79,31 @@ Generated: 2026-08-09
 
 ---
 
+## Awesome lists (curated collections)
+Below are curated "Awesome" collections across trading, quant, finance, DeFi, and agentic resources. Use these to expand the repo further or as reference links.
+
+- [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) — Curated quant libraries & resources.
+- [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — Awesome list for systematic trading (strategies, tools).
+- [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) — Large curated systematic trading list.
+- [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) — China-focused quant resources (Chinese ecosystem).
+- [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) — AI/ML resources for quantitative investing.
+- [joelowj/awesome-algorithmic-trading](https://github.com/joelowj/awesome-algorithmic-trading) — Algorithmic trading frameworks and resources.
+- [botcrypto-io/awesome-crypto-trading-bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots) — Crypto trading bots collection.
+- [pythonfortraders/awesome-python-algo-trading](https://github.com/pythonfortraders/awesome-python-algo-trading) — Python-focused algorithmic trading resources.
+- [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) — LLMs, deep learning & finance resources.
+- [AI4Finance-Foundation/Awesome_AI4Finance](https://github.com/AI4Finance-Foundation/Awesome_AI4Finance) — AI4Finance curated resources.
+- [tradingview/awesome-tradingview](https://github.com/tradingview/awesome-tradingview) — TradingView ecosystem resources.
+- [pAulseperformance/awesome-pinescript](https://github.com/pAulseperformance/awesome-pinescript) — Pine Script resources & examples.
+- [ong/awesome-decentralized-finance](https://github.com/ong/awesome-decentralized-finance) — DeFi projects & resources.
+- [LabinatorSolutions/awesome-institutional-trading](https://github.com/LabinatorSolutions/awesome-institutional-trading) — Institutional trading resources: order flow, market microstructure.
+- [StateOfTheArt-quant/awesome-high-frequency-trading](https://github.com/StateOfTheArt-quant/awesome-high-frequency-trading) — HFT resources.
+- [FlashAlpha-lab/awesome-options-analytics](https://github.com/FlashAlpha-lab/awesome-options-analytics) — Options analytics and libraries.
+- [Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) — Papers on LLM-based quantitative trading.
+- [QuantBrainteasers/awesome-quant-interview-prep](https://github.com/QuantBrainteasers/awesome-quant-interview-prep) — Quant interview roadmap and resources.
+
+---
+
 Notes
-- Star counts are snapshot values from searches performed on 2026-08-09. Live counts on GitHub may differ.
-- I prioritized high-star, actively maintained projects across categories: data, engines, bots, ML/quant tooling and integration libraries.
-- I can reformat the README into clearer categories, add a table of contents, badges, or open a PR instead of committing directly.
+- Star/fork counts are snapshots from 2026-08-09 where available. Live counts on GitHub may differ.
+- I added these collections to the bottom of the README as requested. If you want counts added for each Awesome list entry, I can fetch and include them.
+
