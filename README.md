@@ -30,10 +30,6 @@ Generated: 2026-08-09
 ## Misc / Related Tools
 - [anthropics/financial-services](https://github.com/anthropics/financial-services) — Financial services related repo by Anthropics. — Stars: 34128 — Snapshot: 2026-08-09
 
----
-
-## Added from GitHub search (top finance/trading projects) — Snapshot: 2026-08-09
-
 ### LLMs / Agentic / Modern stacks
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework. — Stars: 96,691 — Snapshot: 2026-08-09
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — Vibe-Trading: personal trading agent / Vibe ecosystem. — Stars: 30,404 — Snapshot: 2026-08-09
@@ -103,7 +99,4 @@ Below are curated "Awesome" collections across trading, quant, finance, DeFi, an
 
 ---
 
-Notes
-- Star/fork counts are snapshots from 2026-08-09 where available. Live counts on GitHub may differ.
-- I added these collections to the bottom of the README as requested. If you want counts added for each Awesome list entry, I can fetch and include them.
 
