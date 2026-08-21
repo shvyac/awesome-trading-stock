@@ -4,9 +4,9 @@ Awesome Stock Trading Systems
 
 # Awesome Money Simulation — Finance & Trading 
 
-A curated list of finance, trading, market-data, and simulation projects assembled . Snapshot of star counts taken on 2026-08-09.
+A curated list of finance, trading, market-data, and simulation projects assembled . Snapshot of star counts taken on 2026-08-21.
 
-Generated: 2026-08-09
+Generated: 2026-08-21
 
 ## LLMs & Finance
 - [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) — FinGPT: Open-Source Financial Large Language Models. Trained models and tools for finance-focused LLM workflow[...]
@@ -14,10 +14,10 @@ Generated: 2026-08-09
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — TradingAgents: Multi-Agents LLM Financial Trading Framework. — Stars: 96680 — Snapshot: 2026-08-09
 
 ## Full Trading Platforms
-- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) — NautilusTrader: Production-grade, event-driven trading engine (Rust/Python) with nanosecond-precision and research-to-live parity.
-- [stocksharp/stocksharp](https://github.com/stocksharp/stocksharp) — StockSharp: Full trading platform (C#) for stocks, forex, crypto, options with charting and broker connections. — Stars: 10,600+
-- [TradeMaster-NTU/TradeMaster](https://github.com/TradeMaster-NTU/TradeMaster) — TradeMaster: Quantitative trading empowered by reinforcement learning (PPO, DQN, etc.), covers US/China stocks and crypto. — Language: Python
-- [ettec/open-trading-platform](https://github.com/ettec/open-trading-platform) — Open Trading Platform: Cross-asset execution platform in Go, deployable on-prem or cloud.
+- [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) — NautilusTrader: Production-grade, event-driven trading engine (Rust/Python) with nanosecond-precision and research-to-live parity. — Snapshot: 2026-08-21
+- [stocksharp/stocksharp](https://github.com/stocksharp/stocksharp) — StockSharp: Full trading platform (C#) for stocks, forex, crypto, options with charting and broker connections. — Stars: 10,600+ — Snapshot: 2026-08-21
+- [TradeMaster-NTU/TradeMaster](https://github.com/TradeMaster-NTU/TradeMaster) — TradeMaster: Quantitative trading empowered by reinforcement learning (PPO, DQN, etc.), covers US/China stocks and crypto. — Snapshot: 2026-08-21
+- [ettec/open-trading-platform](https://github.com/ettec/open-trading-platform) — Open Trading Platform: Cross-asset execution platform in Go, deployable on-prem or cloud. — Snapshot: 2026-08-21
 - [QuantConnect/Lean](https://github.com/QuantConnect/Lean) — LEAN Algorithmic Trading Engine: Institutional-grade backtesting + live trading engine (Python, C#). — Stars: 21,125 — Snapshot: 2026-08-09
 
 ## Trading Bots & Automation
@@ -25,10 +25,10 @@ Generated: 2026-08-09
 - [hajime-f/stocktrading](https://github.com/hajime-f/stocktrading) — 機械学習を応用した日本株の自動売買プログラム (ML-based automated trading for Japanese stocks). — Sta[...]
 
 ## Python Backtesting & Trading Libraries
-- [kernc/backtesting.py](https://github.com/kernc/backtesting.py) — Lightweight backtesting library for Python.
-- [blankly-finance/blankly](https://github.com/blankly-finance/blankly) — Build, backtest and deploy algo trading across stocks, crypto, and forex.
-- [rockyzsu/stock](https://github.com/rockyzsu/stock) — Quant platform for market data, backtesting, and execution (Chinese market focus). — Stars: 7,800+
-- [quantopian/zipline](https://github.com/quantopian/zipline) — Classic Python backtesting engine (from Quantopian).
+- [kernc/backtesting.py](https://github.com/kernc/backtesting.py) — Lightweight backtesting library for Python. — Snapshot: 2026-08-21
+- [blankly-finance/blankly](https://github.com/blankly-finance/blankly) — Build, backtest and deploy algo trading across stocks, crypto, and forex. — Snapshot: 2026-08-21
+- [rockyzsu/stock](https://github.com/rockyzsu/stock) — Quant platform for market data, backtesting, and execution (Chinese market focus). — Stars: 7,800+ — Snapshot: 2026-08-21
+- [quantopian/zipline](https://github.com/quantopian/zipline) — Classic Python backtesting engine (from Quantopian). — Snapshot: 2026-08-21
 - [mementum/backtrader](https://github.com/mementum/backtrader) — backtrader: Python backtesting library. — Stars: 22,779 — Snapshot: 2026-08-09
 - [polakowo/vectorbt](https://github.com/polakowo/vectorbt) — High-performance backtesting/analysis engine. — Stars: 8,614 — Snapshot: 2026-08-09
 
@@ -79,7 +79,7 @@ Generated: 2026-08-09
 
 ## Education / Collections / Awesome lists
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) — Curated quant libraries & resources. — Stars: 28,559 — Snapshot: 2026-08-09
-- [merovinh/best-of-algorithmic-trading](https://github.com/merovinh/best-of-algorithmic-trading) — Best of Algorithmic Trading: Ranked list of trading projects updated weekly.
+- [merovinh/best-of-algorithmic-trading](https://github.com/merovinh/best-of-algorithmic-trading) — Best of Algorithmic Trading: Ranked list of trading projects updated weekly. — Snapshot: 2026-08-21
 - [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) — Awesome list for systematic trading. — Stars: 13,066 — Snapshot: 2026-08[...]
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) — AI & deep learning in finance curated. — Stars: 6,368 — Snapshot: 2026-08-09
 
