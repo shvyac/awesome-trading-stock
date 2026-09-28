@@ -30,7 +30,7 @@
 
 - [OpenBB（英語）](https://openbb.co/) - アナリスト・クオンツ・AI エージェント向けのオープンデータ基盤。（[GitHub](https://github.com/OpenBB-finance/OpenBB)）
 - [yfinance（英語）](https://ranaroussi.github.io/yfinance/) - Yahoo Finance 系マーケットデータへの Python アクセス（コミュニティ維持）。（[GitHub](https://github.com/ranaroussi/yfinance)）
-- [Polygon.io（英語）](https://polygon.io/) - 株式・オプション・FX・暗号資産の REST／WebSocket マーケットデータ。
+- [Massive（旧 Polygon.io）（英語）](https://massive.com/) - 株式・オプション・指数・FX・先物の REST／WebSocket マーケットデータ（Polygon.io から改称。旧ドメインはリダイレクト）。
 - [Tiingo（英語）](https://www.tiingo.com/) - 終値および IEX 系株式データ API。
 - [Alpha Vantage（英語）](https://www.alphavantage.co/) - 株式・FX・暗号資産 API（無料開発者枠あり）。
 - [Nasdaq Data Link（Quandl）（英語）](https://data.nasdaq.com/) - 経済・オルタナティブデータセットのマーケットプレイス。
@@ -57,10 +57,11 @@
 
 - [QuantConnect Lean（英語）](https://www.lean.io/) - オープンソースのアルゴ取引エンジン（Python／C#）。クラウドとローカル両対応。（[GitHub](https://github.com/QuantConnect/Lean)）
 - [NautilusTrader（英語）](https://nautilustrader.io/) - 高性能イベント駆動トレーディング基盤（Rust コア、Python）。（[GitHub](https://github.com/nautechsystems/nautilus_trader)）
-- [backtrader（英語）](https://www.backtrader.com/) - 定番の Python バックテストライブラリ。（[GitHub](https://github.com/mementum/backtrader)）
+- [backtrader（英語）](https://www.backtrader.com/) - 定番の Python バックテストライブラリ（成熟済みで近年の開発は少なめ）。（[GitHub](https://github.com/mementum/backtrader)）
 - [vectorbt（英語）](https://vectorbt.dev/) - 高速なベクトル化バックテストとポートフォリオ分析。（[GitHub](https://github.com/polakowo/vectorbt)）
 - [backtesting.py（英語）](https://kernc.github.io/backtesting.py/) - 軽量な Python バックテスター。（[GitHub](https://github.com/kernc/backtesting.py)）
 - [Zipline Reloaded（英語）](https://github.com/stefan-jansen/zipline-reloaded) - Quantopian Zipline のメンテ継続フォーク。
+- [hftbacktest（英語）](https://github.com/nkaz001/hftbacktest) - 板の待ち行列位置・レイテンシ・L2/L3 板を考慮する高頻度／マーケットメイク向けバックテスター（Rust、Python）。
 - [StockSharp（英語）](https://stocksharp.com/) - 株式・FX・暗号・オプション向けフル取引プラットフォーム（C#）。（[GitHub](https://github.com/stocksharp/stocksharp)）
 - [Jesse（英語）](https://jesse.trade/) - 暗号資産向け Python 取引／バックテストフレームワーク。（[GitHub](https://github.com/jesse-ai/jesse)）
 - [freqtrade（英語）](https://www.freqtrade.io/) - バックテストとハイパーパラメータ探索付きのオープンソース暗号取引ボット。（[GitHub](https://github.com/freqtrade/freqtrade)）
@@ -73,7 +74,7 @@
 
 - [Alpaca Docs（英語）](https://docs.alpaca.markets/) - 米国株／暗号の API。ペーパートレードあり。（[alpaca-py](https://github.com/alpacahq/alpaca-py)）
 - [Interactive Brokers — TWS API（英語）](https://www.interactivebrokers.com/campus/ibkr-api-page/twsapi-doc/) - TWS／IB Gateway 経由のマルチアセット API。
-- [ib_insync（英語）](https://ib-insync.readthedocs.io/) - IB TWS API 向けの扱いやすい Python ラッパー。
+- [ib_async（英語）](https://github.com/ib-api-reloaded/ib_async) - ib_insync のコミュニティ後継。IB TWS API 向けの扱いやすい Python（asyncio）ラッパー。（元の [ib_insync](https://github.com/erdewit/ib_insync) リポジトリはアーカイブ済み）
 - [Tradier Docs（英語）](https://documentation.tradier.com/) - オプションに強いブローカー REST API。
 - [kabuステーション API](https://kabucom.github.io/kabusapi/ptal/) - 国内株式／派生商品向け API（三菱UFJ eスマート証券）。（[GitHub](https://github.com/kabucom/kabusapi)）
 
@@ -84,7 +85,7 @@
 指標・シグナル用ヘルパー。
 
 - [TA-Lib（英語）](https://ta-lib.org/) - 広く使われるテクニカル分析 C ライブラリ（Python バインディングあり）。
-- [pandas-ta（英語）](https://www.pandas-ta.dev/) - pandas DataFrame 拡張としてのテクニカル指標。
+- [pandas-ta（英語）](https://pypi.org/project/pandas-ta/) - pandas DataFrame 拡張としてのテクニカル指標（元の GitHub リポジトリと pandas-ta.dev サイトは閲覧不可。PyPI のリリースは残存）。
 - [ta（英語）](https://github.com/bukosabino/ta) - pandas／NumPy ベースのテクニカル指標。
 - [Kand（英語）](https://github.com/kand-ta/kand) - 高速テクニカル分析（Rust／Python／WASM）。
 
@@ -97,6 +98,8 @@
 - [Microsoft Qlib（英語）](https://qlib.readthedocs.io/) - AI 志向の定量投資プラットフォーム。（[GitHub](https://github.com/microsoft/qlib)）
 - [gs-quant（英語）](https://developer.gs.com/docs/gsquant/) - Goldman Sachs の定量ツールキット（Python）。（[GitHub](https://github.com/goldmansachs/gs-quant)）
 - [QuantStats（英語）](https://github.com/ranaroussi/quantstats) - ポートフォリオ実績分析と tear sheet。
+- [skfolio（英語）](https://skfolio.org/) - scikit-learn 上に構築されたポートフォリオ最適化・リスク管理ライブラリ。（[GitHub](https://github.com/skfolio/skfolio)）
+- [Riskfolio-Lib（英語）](https://riskfolio-lib.readthedocs.io/) - ポートフォリオ最適化ライブラリ（平均リスク、リスクパリティ、CVaR、ドローダウンモデル等）。（[GitHub](https://github.com/dcajasn/Riskfolio-Lib)）
 - [FinGPT（英語）](https://github.com/AI4Finance-Foundation/FinGPT) - オープンソースの金融 LLM リソース（AI4Finance）。
 - [FinRobot（英語）](https://github.com/AI4Finance-Foundation/FinRobot) - 金融アプリ向けオープンソース AI エージェント基盤。
 - [TradingAgents（英語）](https://github.com/TauricResearch/TradingAgents) - マルチエージェント LLM トレーディング研究フレームワーク。
@@ -122,11 +125,11 @@
 
 - [日本取引所グループ（JPX）](https://www.jpx.co.jp/) - 東証／大証などを含む取引所グループ（[English](https://www.jpx.co.jp/english/)）。
 - [JPX マーケット情報・統計（英語）](https://www.jpx.co.jp/english/markets/index.html) - 公式の市場サマリーと統計。
-- [J-Quants API](https://jpx-jquants.com/) - 個人向けのヒストリカル株価・財務など。（[JPX 概要](https://www.jpx.co.jp/markets/other-data-services/j-quants-api/index.html)）。
+- [J-Quants API](https://jpx-jquants.com/) - 個人向けのヒストリカル株価・財務など。V2 API（2025年12月）で API キー認証・公式 MCP サーバーに対応。2026年1月に CSV 一括提供と株式の分足・Tick データを追加（ライトプラン以上）。（[JPX 概要](https://www.jpx.co.jp/markets/other-data-services/j-quants-api/index.html)、[V1→V2 移行](https://jpx-jquants.com/ja/spec/migration-v1-v2)、[Python クライアント](https://github.com/J-Quants/jquants-api-client-python)）
 - [TDnet](https://www.release.tdnet.info/) - 適時開示情報伝達システム。
 - [金融庁](https://www.fsa.go.jp/) - 政策・開示関連情報。
 - [kabuステーション API](https://kabucom.github.io/kabusapi/ptal/) - 国内市場向け PC ベース取引 API。
-- [python-kabusapi（英語）](https://github.com/shirasublue/python-kabusapi) - kabuステーション API のコミュニティ Python バインディング。
+- [python-kabusapi（英語）](https://github.com/shirasublue/python-kabusapi) - kabuステーション API のコミュニティ Python バインディング（2021年以降更新なし）。
 
 ---
 
@@ -137,7 +140,7 @@
 - [Machine Learning for Trading（英語）](https://github.com/stefan-jansen/machine-learning-for-trading) - Jansen 著 ML for Trading のコード／ノートブック。
 - [Quantopian Lectures（アーカイブ）（英語）](https://github.com/quantopian/research_public) - ファクターやパイプラインの古典的な講義ノート。
 - [Awesome LLM Quantitative Trading Papers（英語）](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) - LLM ベース定量取引の論文集。
-- [SSRN（英語）](https://www.ssrn.com/) - ファイナンス・経済学のワーキングペーパー。
+- [SSRN（英語）](https://papers.ssrn.com/) - ファイナンス・経済学のワーキングペーパー。
 
 ---
 
