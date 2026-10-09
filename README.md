@@ -28,14 +28,14 @@ A curated list of useful **stock / markets / trading** resources — market-data
 
 Historical and streaming market data for research and apps.
 
-- [OpenBB](https://openbb.co/) - Open data platform for analysts, quants, and AI agents. ([GitHub](https://github.com/OpenBB-finance/OpenBB))
+- [OpenBB](https://openbb.co/) - Open data platform for analysts, quants, and AI agents. The company wound down in Aug 2026 and open-sourced its full stack; the non-profit [OpenBQ](https://openbq.org/) now stewards the project ([announcement](https://openbb.co/blog/openbb-belongs-to-everyone)). ([GitHub](https://github.com/OpenBB-finance/OpenBB))
 - [yfinance](https://ranaroussi.github.io/yfinance/) - Pythonic access to Yahoo Finance market data (community-maintained). ([GitHub](https://github.com/ranaroussi/yfinance))
-- [Massive (formerly Polygon.io)](https://massive.com/) - Stocks, options, indices, forex, and futures REST + WebSocket market data (rebranded from Polygon.io; old domain redirects).
+- [Massive (formerly Polygon.io)](https://massive.com/) - Stocks, options, indices, forex, and futures REST + WebSocket market data (rebranded from Polygon.io; old domain redirects). ([MCP server](https://github.com/massive-com/mcp_massive))
 - [Tiingo](https://www.tiingo.com/) - End-of-day and IEX-backed equities data API.
 - [Alpha Vantage](https://www.alphavantage.co/) - Stock, forex, and crypto APIs with a free developer tier.
 - [Nasdaq Data Link (Quandl)](https://data.nasdaq.com/) - Economic and alternative datasets marketplace.
 - [AKShare](https://akshare.akfamily.xyz/) - Python financial-data interfaces with strong China-market coverage. ([GitHub](https://github.com/akfamily/akshare))
-- [ccxt](https://github.com/ccxt/ccxt) - Unified trading / market-data API across many crypto exchanges.
+- [ccxt](https://github.com/ccxt/ccxt) - Unified trading / market-data API across 100+ crypto exchanges and prediction markets (JS / TS, Python, C#, PHP, Go, Java, Rust).
 
 ---
 
@@ -46,8 +46,8 @@ Visualization and interactive analysis.
 - [TradingView](https://www.tradingview.com/) - Charts, screeners, and social ideas; Pine Script for custom indicators.
 - [Pine Script v6 reference](https://www.tradingview.com/pine-script-reference/v6/) - Official Pine language reference.
 - [Lightweight Charts](https://www.tradingview.com/lightweight-charts/) - TradingView’s open-source HTML5 financial charts. ([GitHub](https://github.com/tradingview/lightweight-charts))
-- [Fincept Terminal](https://github.com/Fincept-Corporation/FinceptTerminal) - Open-source finance terminal / analytics UI.
-- [mplfinance](https://github.com/matplotlib/mplfinance) - Matplotlib candlestick and OHLC plotting for pandas.
+- [Fincept Terminal](https://github.com/Fincept-Corporation/FinceptTerminal) - Open-source finance terminal (C++ / Qt) for market analytics, investment research, and economic data.
+- [mplfinance](https://github.com/matplotlib/mplfinance) - Matplotlib candlestick and OHLC plotting for pandas (no commits since Aug 2024).
 
 ---
 
@@ -72,10 +72,10 @@ Event-driven and vectorized engines for strategy research (paper / sim first).
 
 Official or widely used broker / gateway documentation (check local regs and account eligibility).
 
-- [Alpaca Docs](https://docs.alpaca.markets/) - Commission-free US equities / crypto API; paper trading. ([alpaca-py](https://github.com/alpacahq/alpaca-py))
-- [Interactive Brokers — TWS API](https://www.interactivebrokers.com/campus/ibkr-api-page/twsapi-doc/) - Multi-asset broker API via TWS / IB Gateway.
+- [Alpaca Docs](https://docs.alpaca.markets/) - Commission-free equities / options / crypto API with paper trading; docs are split by region (US, EU, UK, JP, etc.). ([alpaca-py](https://github.com/alpacahq/alpaca-py), [official MCP server](https://github.com/alpacahq/alpaca-mcp-server))
+- [Interactive Brokers — TWS API](https://www.interactivebrokers.com/campus/ibkr-api-page/twsapi-doc/) - Multi-asset broker API via TWS / IB Gateway (recent versions use Protobuf messaging; Python 3.11+).
 - [ib_async](https://github.com/ib-api-reloaded/ib_async) - Community-maintained successor to ib_insync: friendly Python (asyncio) wrapper around the IB TWS API. (The original [ib_insync](https://github.com/erdewit/ib_insync) repo is archived.)
-- [Tradier Docs](https://documentation.tradier.com/) - Brokerage REST API with strong options support.
+- [Tradier API](https://docs.tradier.com/) - Brokerage REST + streaming API for US equities and options (docs moved from documentation.tradier.com).
 - [kabuステーション API](https://kabucom.github.io/kabusapi/ptal/) - Japanese equities / derivatives API (三菱UFJ eスマート証券). ([GitHub](https://github.com/kabucom/kabusapi))
 
 ---
@@ -85,7 +85,7 @@ Official or widely used broker / gateway documentation (check local regs and acc
 Indicators and signal helpers.
 
 - [TA-Lib](https://ta-lib.org/) - Widely used technical-analysis C library with Python bindings.
-- [pandas-ta](https://pypi.org/project/pandas-ta/) - Technical indicators as a pandas DataFrame extension (original GitHub repo and pandas-ta.dev site no longer available; PyPI releases remain).
+- [pandas-ta](https://pypi.org/project/pandas-ta/) - Technical indicators as a pandas DataFrame extension (original GitHub repo and pandas-ta.dev site no longer available; latest PyPI release is 0.4.71b0 beta from Sep 2025, Python 3.12+).
 - [ta](https://github.com/bukosabino/ta) - Technical analysis indicators in pandas / NumPy.
 - [Kand](https://github.com/kand-ta/kand) - Fast technical analysis (Rust / Python / WASM).
 
@@ -103,6 +103,7 @@ Research stacks for factor models, ML workflows, and portfolio analytics.
 - [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Open-source financial LLM resources (AI4Finance).
 - [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) - Open-source AI agent platform for financial applications.
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent LLM trading research framework.
+- [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Open-source personal LLM trading agent (HKU Data Intelligence Lab): natural-language strategy research, backtesting, and MCP integration.
 - [TradeMaster](https://github.com/TradeMaster-NTU/TradeMaster) - RL-oriented quantitative trading platform (NTU).
 
 ---
@@ -111,7 +112,7 @@ Research stacks for factor models, ML workflows, and portfolio analytics.
 
 Regulatory disclosure portals and structured fundamentals.
 
-- [SEC EDGAR](https://www.sec.gov/edgar) - US company filings search.
+- [SEC EDGAR — Search Filings](https://www.sec.gov/search-filings) - US company filings search ([Full-Text Search](https://www.sec.gov/edgar/search/)).
 - [SEC EDGAR APIs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) - Official submissions and XBRL JSON APIs (`data.sec.gov`).
 - [EDINET](https://disclosure2.edinet-fsa.go.jp/) - Japan FSA electronic disclosure system (有価証券報告書など).
 - [EDINET API guides](https://disclosure2dl.edinet-fsa.go.jp/guide/static/disclosure/WEEK0060.html) - Official API / taxonomy documentation (Japanese).
@@ -125,7 +126,7 @@ Exchanges, official data products, and JP-oriented tooling.
 
 - [Japan Exchange Group (JPX)](https://www.jpx.co.jp/english/) - Tokyo Stock Exchange / Osaka Exchange group home ([日本語](https://www.jpx.co.jp/)).
 - [JPX Data & Statistics](https://www.jpx.co.jp/english/markets/index.html) - Official market summaries and published statistics.
-- [J-Quants API](https://jpx-jquants.com/) - JPX historical prices, financials, and related datasets for individuals. V2 API (Dec 2025) uses API keys and offers an official MCP server; bulk CSV and equity minute-bar / tick data added Jan 2026 (Light plan+). ([JPX overview](https://www.jpx.co.jp/markets/other-data-services/j-quants-api/index.html), [V1 → V2 migration](https://jpx-jquants.com/ja/spec/migration-v1-v2), [Python client](https://github.com/J-Quants/jquants-api-client-python))
+- [J-Quants API](https://jpx-jquants.com/) - JPX historical prices, financials, and related datasets for individuals. V2 API (Dec 2025) uses API keys (V1 token login removed; accounts registered since 22 Dec 2025 are V2-only) and offers an official MCP server; bulk CSV and equity minute-bar / tick data added Jan 2026 (Light plan+). ([JPX overview](https://www.jpx.co.jp/markets/other-data-services/j-quants-api/index.html), [V1 → V2 migration](https://jpx-jquants.com/ja/spec/migration-v1-v2), [Python client](https://github.com/J-Quants/jquants-api-client-python))
 - [TDnet](https://www.release.tdnet.info/) - Timely Disclosure Network for TSE-listed company announcements.
 - [金融庁 (FSA)](https://www.fsa.go.jp/) - Japan Financial Services Agency policy and disclosure information.
 - [kabuステーション API](https://kabucom.github.io/kabusapi/ptal/) - Local PC-based trading API for Japanese markets.
@@ -137,7 +138,7 @@ Exchanges, official data products, and JP-oriented tooling.
 
 Learning material and paper collections (still not advice).
 
-- [Machine Learning for Trading](https://github.com/stefan-jansen/machine-learning-for-trading) - Code / notebooks companion to Jansen’s ML-for-trading book.
+- [Machine Learning for Trading](https://github.com/stefan-jansen/machine-learning-for-trading) - Code / notebooks companion to Jansen’s ML-for-trading book (3rd edition: from data sourcing to live execution). ([ml4trading.io](https://ml4trading.io))
 - [Quantopian Lectures (archived)](https://github.com/quantopian/research_public) - Classic lecture notebooks on factors and pipelines.
 - [Awesome LLM Quantitative Trading Papers](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) - Papers on LLM-based quantitative trading.
 - [SSRN](https://papers.ssrn.com/) - Working papers across finance and economics.

@@ -28,14 +28,14 @@
 
 リサーチやアプリ向けのヒストリカル／ストリーミング市場データ。
 
-- [OpenBB（英語）](https://openbb.co/) - アナリスト・クオンツ・AI エージェント向けのオープンデータ基盤。（[GitHub](https://github.com/OpenBB-finance/OpenBB)）
+- [OpenBB（英語）](https://openbb.co/) - アナリスト・クオンツ・AI エージェント向けのオープンデータ基盤。運営会社は2026年8月に事業を終了し全製品をオープンソース化、現在は非営利団体 [OpenBQ](https://openbq.org/) がプロジェクトを継承（[告知](https://openbb.co/blog/openbb-belongs-to-everyone)）。（[GitHub](https://github.com/OpenBB-finance/OpenBB)）
 - [yfinance（英語）](https://ranaroussi.github.io/yfinance/) - Yahoo Finance 系マーケットデータへの Python アクセス（コミュニティ維持）。（[GitHub](https://github.com/ranaroussi/yfinance)）
-- [Massive（旧 Polygon.io）（英語）](https://massive.com/) - 株式・オプション・指数・FX・先物の REST／WebSocket マーケットデータ（Polygon.io から改称。旧ドメインはリダイレクト）。
+- [Massive（旧 Polygon.io）（英語）](https://massive.com/) - 株式・オプション・指数・FX・先物の REST／WebSocket マーケットデータ（Polygon.io から改称。旧ドメインはリダイレクト）。（[MCP サーバー](https://github.com/massive-com/mcp_massive)）
 - [Tiingo（英語）](https://www.tiingo.com/) - 終値および IEX 系株式データ API。
 - [Alpha Vantage（英語）](https://www.alphavantage.co/) - 株式・FX・暗号資産 API（無料開発者枠あり）。
 - [Nasdaq Data Link（Quandl）（英語）](https://data.nasdaq.com/) - 経済・オルタナティブデータセットのマーケットプレイス。
 - [AKShare（英語／中国語）](https://akshare.akfamily.xyz/) - 中国市場に強い Python 金融データインタフェース。（[GitHub](https://github.com/akfamily/akshare)）
-- [ccxt（英語）](https://github.com/ccxt/ccxt) - 多数の暗号資産取引所を横断する統一取引／マーケットデータ API。
+- [ccxt（英語）](https://github.com/ccxt/ccxt) - 100以上の暗号資産取引所と予測市場を横断する統一取引／マーケットデータ API（JS／TS、Python、C#、PHP、Go、Java、Rust）。
 
 ---
 
@@ -46,8 +46,8 @@
 - [TradingView（英語）](https://www.tradingview.com/) - チャート、スクリーナー、アイデア共有。カスタム指標は Pine Script。
 - [Pine Script v6 リファレンス（英語）](https://www.tradingview.com/pine-script-reference/v6/) - 公式 Pine 言語リファレンス。
 - [Lightweight Charts（英語）](https://www.tradingview.com/lightweight-charts/) - TradingView のオープンソース HTML5 金融チャート。（[GitHub](https://github.com/tradingview/lightweight-charts)）
-- [Fincept Terminal（英語）](https://github.com/Fincept-Corporation/FinceptTerminal) - オープンソースのファイナンスターミナル／分析 UI。
-- [mplfinance（英語）](https://github.com/matplotlib/mplfinance) - pandas 向け Matplotlib ローソク足／OHLC 描画。
+- [Fincept Terminal（英語）](https://github.com/Fincept-Corporation/FinceptTerminal) - 市場分析・投資リサーチ・経済データ向けのオープンソースのファイナンスターミナル（C++／Qt）。
+- [mplfinance（英語）](https://github.com/matplotlib/mplfinance) - pandas 向け Matplotlib ローソク足／OHLC 描画（2024年8月以降コミットなし）。
 
 ---
 
@@ -72,10 +72,10 @@
 
 公式または広く使われるブローカー／ゲートウェイ資料（各国の規制と口座適格性を確認してください）。
 
-- [Alpaca Docs（英語）](https://docs.alpaca.markets/) - 米国株／暗号の API。ペーパートレードあり。（[alpaca-py](https://github.com/alpacahq/alpaca-py)）
-- [Interactive Brokers — TWS API（英語）](https://www.interactivebrokers.com/campus/ibkr-api-page/twsapi-doc/) - TWS／IB Gateway 経由のマルチアセット API。
+- [Alpaca Docs（英語）](https://docs.alpaca.markets/) - 株式／オプション／暗号の API。ペーパートレードあり。ドキュメントは地域別（US、EU、UK、JP など）に分割。（[alpaca-py](https://github.com/alpacahq/alpaca-py)、[公式 MCP サーバー](https://github.com/alpacahq/alpaca-mcp-server)）
+- [Interactive Brokers — TWS API（英語）](https://www.interactivebrokers.com/campus/ibkr-api-page/twsapi-doc/) - TWS／IB Gateway 経由のマルチアセット API（最近のバージョンは Protobuf メッセージング、Python 3.11 以上）。
 - [ib_async（英語）](https://github.com/ib-api-reloaded/ib_async) - ib_insync のコミュニティ後継。IB TWS API 向けの扱いやすい Python（asyncio）ラッパー。（元の [ib_insync](https://github.com/erdewit/ib_insync) リポジトリはアーカイブ済み）
-- [Tradier Docs（英語）](https://documentation.tradier.com/) - オプションに強いブローカー REST API。
+- [Tradier API（英語）](https://docs.tradier.com/) - 米国株・オプション向けのブローカー REST／ストリーミング API（documentation.tradier.com から移転）。
 - [kabuステーション API](https://kabucom.github.io/kabusapi/ptal/) - 国内株式／派生商品向け API（三菱UFJ eスマート証券）。（[GitHub](https://github.com/kabucom/kabusapi)）
 
 ---
@@ -85,7 +85,7 @@
 指標・シグナル用ヘルパー。
 
 - [TA-Lib（英語）](https://ta-lib.org/) - 広く使われるテクニカル分析 C ライブラリ（Python バインディングあり）。
-- [pandas-ta（英語）](https://pypi.org/project/pandas-ta/) - pandas DataFrame 拡張としてのテクニカル指標（元の GitHub リポジトリと pandas-ta.dev サイトは閲覧不可。PyPI のリリースは残存）。
+- [pandas-ta（英語）](https://pypi.org/project/pandas-ta/) - pandas DataFrame 拡張としてのテクニカル指標（元の GitHub リポジトリと pandas-ta.dev サイトは閲覧不可。PyPI の最新は 2025年9月の 0.4.71b0 ベータ、Python 3.12 以上）。
 - [ta（英語）](https://github.com/bukosabino/ta) - pandas／NumPy ベースのテクニカル指標。
 - [Kand（英語）](https://github.com/kand-ta/kand) - 高速テクニカル分析（Rust／Python／WASM）。
 
@@ -103,6 +103,7 @@
 - [FinGPT（英語）](https://github.com/AI4Finance-Foundation/FinGPT) - オープンソースの金融 LLM リソース（AI4Finance）。
 - [FinRobot（英語）](https://github.com/AI4Finance-Foundation/FinRobot) - 金融アプリ向けオープンソース AI エージェント基盤。
 - [TradingAgents（英語）](https://github.com/TauricResearch/TradingAgents) - マルチエージェント LLM トレーディング研究フレームワーク。
+- [Vibe-Trading（英語）](https://github.com/HKUDS/Vibe-Trading) - オープンソースの個人向け LLM トレーディングエージェント（香港大学 Data Intelligence Lab）。自然言語での戦略リサーチ、バックテスト、MCP 連携。
 - [TradeMaster（英語）](https://github.com/TradeMaster-NTU/TradeMaster) - 強化学習志向の定量取引プラットフォーム（NTU）。
 
 ---
@@ -111,7 +112,7 @@
 
 規制開示ポータルと構造化ファンダメンタルズ。
 
-- [SEC EDGAR（英語）](https://www.sec.gov/edgar) - 米国企業の開示検索。
+- [SEC EDGAR — Search Filings（英語）](https://www.sec.gov/search-filings) - 米国企業の開示検索（[全文検索](https://www.sec.gov/edgar/search/)）。
 - [SEC EDGAR APIs（英語）](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) - 提出履歴・XBRL JSON の公式 API（`data.sec.gov`）。
 - [EDINET](https://disclosure2.edinet-fsa.go.jp/) - 金融庁の電子開示システム（有価証券報告書など）。
 - [EDINET API 操作ガイド等](https://disclosure2dl.edinet-fsa.go.jp/guide/static/disclosure/WEEK0060.html) - 公式 API／タクソノミ文書。
@@ -125,7 +126,7 @@
 
 - [日本取引所グループ（JPX）](https://www.jpx.co.jp/) - 東証／大証などを含む取引所グループ（[English](https://www.jpx.co.jp/english/)）。
 - [JPX マーケット情報・統計（英語）](https://www.jpx.co.jp/english/markets/index.html) - 公式の市場サマリーと統計。
-- [J-Quants API](https://jpx-jquants.com/) - 個人向けのヒストリカル株価・財務など。V2 API（2025年12月）で API キー認証・公式 MCP サーバーに対応。2026年1月に CSV 一括提供と株式の分足・Tick データを追加（ライトプラン以上）。（[JPX 概要](https://www.jpx.co.jp/markets/other-data-services/j-quants-api/index.html)、[V1→V2 移行](https://jpx-jquants.com/ja/spec/migration-v1-v2)、[Python クライアント](https://github.com/J-Quants/jquants-api-client-python)）
+- [J-Quants API](https://jpx-jquants.com/) - 個人向けのヒストリカル株価・財務など。V2 API（2025年12月）で API キー認証（V1 のトークン認証は廃止、2025年12月22日以降の登録者は V2 のみ）・公式 MCP サーバーに対応。2026年1月に CSV 一括提供と株式の分足・Tick データを追加（ライトプラン以上）。（[JPX 概要](https://www.jpx.co.jp/markets/other-data-services/j-quants-api/index.html)、[V1→V2 移行](https://jpx-jquants.com/ja/spec/migration-v1-v2)、[Python クライアント](https://github.com/J-Quants/jquants-api-client-python)）
 - [TDnet](https://www.release.tdnet.info/) - 適時開示情報伝達システム。
 - [金融庁](https://www.fsa.go.jp/) - 政策・開示関連情報。
 - [kabuステーション API](https://kabucom.github.io/kabusapi/ptal/) - 国内市場向け PC ベース取引 API。
@@ -137,7 +138,7 @@
 
 学習教材と論文コレクション（これも助言ではありません）。
 
-- [Machine Learning for Trading（英語）](https://github.com/stefan-jansen/machine-learning-for-trading) - Jansen 著 ML for Trading のコード／ノートブック。
+- [Machine Learning for Trading（英語）](https://github.com/stefan-jansen/machine-learning-for-trading) - Jansen 著 ML for Trading のコード／ノートブック（第3版：データ取得から実運用まで）。（[ml4trading.io](https://ml4trading.io)）
 - [Quantopian Lectures（アーカイブ）（英語）](https://github.com/quantopian/research_public) - ファクターやパイプラインの古典的な講義ノート。
 - [Awesome LLM Quantitative Trading Papers（英語）](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) - LLM ベース定量取引の論文集。
 - [SSRN（英語）](https://papers.ssrn.com/) - ファイナンス・経済学のワーキングペーパー。
