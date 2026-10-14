@@ -60,6 +60,7 @@ Event-driven and vectorized engines for strategy research (paper / sim first).
 - [backtrader](https://www.backtrader.com/) - Classic Python backtesting library (mature; little recent development). ([GitHub](https://github.com/mementum/backtrader))
 - [vectorbt](https://vectorbt.dev/) - Fast vectorized backtesting and portfolio analysis. ([GitHub](https://github.com/polakowo/vectorbt))
 - [backtesting.py](https://kernc.github.io/backtesting.py/) - Lightweight Python backtester. ([GitHub](https://github.com/kernc/backtesting.py))
+- [OpenBacktesting](https://docs.openbacktesting.com/) - Python single-asset historical backtesting with pandas statistics and parameter optimization. ([GitHub](https://github.com/lucidcog/openbacktesting))
 - [Zipline Reloaded](https://github.com/stefan-jansen/zipline-reloaded) - Maintained fork of Quantopian’s Zipline pipeline.
 - [hftbacktest](https://github.com/nkaz001/hftbacktest) - High-frequency / market-making backtester (Rust, Python) modeling queue position, latency, and L2/L3 order books.
 - [StockSharp](https://stocksharp.com/) - Full trading platform (C#) for equities, FX, crypto, and options. ([GitHub](https://github.com/stocksharp/stocksharp))
