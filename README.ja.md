@@ -60,6 +60,7 @@
 - [backtrader（英語）](https://www.backtrader.com/) - 定番の Python バックテストライブラリ（成熟済みで近年の開発は少なめ）。（[GitHub](https://github.com/mementum/backtrader)）
 - [vectorbt（英語）](https://vectorbt.dev/) - 高速なベクトル化バックテストとポートフォリオ分析。（[GitHub](https://github.com/polakowo/vectorbt)）
 - [backtesting.py（英語）](https://kernc.github.io/backtesting.py/) - 軽量な Python バックテスター。（[GitHub](https://github.com/kernc/backtesting.py)）
+- [OpenBacktesting（英語）](https://docs.openbacktesting.com/) - pandas 統計とパラメータ最適化に対応した、単一資産向け Python 履歴バックテストフレームワーク。（[GitHub](https://github.com/lucidcog/openbacktesting)）
 - [Zipline Reloaded（英語）](https://github.com/stefan-jansen/zipline-reloaded) - Quantopian Zipline のメンテ継続フォーク。
 - [hftbacktest（英語）](https://github.com/nkaz001/hftbacktest) - 板の待ち行列位置・レイテンシ・L2/L3 板を考慮する高頻度／マーケットメイク向けバックテスター（Rust、Python）。
 - [StockSharp（英語）](https://stocksharp.com/) - 株式・FX・暗号・オプション向けフル取引プラットフォーム（C#）。（[GitHub](https://github.com/stocksharp/stocksharp)）
