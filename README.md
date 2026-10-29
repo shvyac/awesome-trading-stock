@@ -119,6 +119,7 @@ Regulatory disclosure portals and structured fundamentals.
 - [SEC EDGAR — Search Filings](https://www.sec.gov/search-filings) - US company filings search ([Full-Text Search](https://www.sec.gov/edgar/search/)).
 - [SEC EDGAR APIs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) - Official submissions and XBRL JSON APIs (`data.sec.gov`).
 - [FinanceToolkit](https://github.com/JerBouma/FinanceToolkit) ![GitHub stars](https://img.shields.io/github/stars/JerBouma/FinanceToolkit?style=flat&label=%E2%AD%90) - Transparent Python toolkit for financial-statement analysis, ratios, valuation, and risk / performance metrics (includes an MCP server).
+- [DisconfirmAI](https://disconfirmai.com/en) - AI investment research and reading platform that seeks counter-evidence in filings and primary sources before forming a thesis; Reading, Research, Radar and free valuation tools.
 - [EDINET](https://disclosure2.edinet-fsa.go.jp/) - Japan FSA electronic disclosure system (有価証券報告書など).
 - [EDINET API guides](https://disclosure2dl.edinet-fsa.go.jp/guide/static/disclosure/WEEK0060.html) - Official API / taxonomy documentation (Japanese).
 - [FRED](https://fred.stlouisfed.org/) - Federal Reserve Economic Data (macro time series + API).
