@@ -37,6 +37,7 @@
 - [Nasdaq Data Link（Quandl）（英語）](https://data.nasdaq.com/) - 経済・オルタナティブデータセットのマーケットプレイス。
 - [AKShare（英語／中国語）](https://akshare.akfamily.xyz/) ![GitHub stars](https://img.shields.io/github/stars/akfamily/akshare?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F29-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/akfamily/akshare?style=flat) - 中国市場に強い Python 金融データインタフェース。（[GitHub](https://github.com/akfamily/akshare)）
 - [ccxt（英語）](https://github.com/ccxt/ccxt) ![GitHub stars](https://img.shields.io/github/stars/ccxt/ccxt?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F29-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/ccxt/ccxt?style=flat) - 100以上の暗号資産取引所と予測市場を横断する統一取引／マーケットデータ API（JS／TS、Python、C#、PHP、Go、Java、Rust）。
+- [SiftingIO（英語）](https://sifting.io/docs) - 米国株式・ETF、FX、コモディティ、暗号資産のリアルタイム REST／WebSocket データと REST 経由のヒストリカルデータ。アカウントと API キーが必要で、評価・社内の非商用利用向けに上限付き無料プランがあります。
 
 ---
 

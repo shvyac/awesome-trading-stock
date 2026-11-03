@@ -37,6 +37,7 @@ Historical and streaming market data for research and apps.
 - [Nasdaq Data Link (Quandl)](https://data.nasdaq.com/) - Economic and alternative datasets marketplace.
 - [AKShare](https://akshare.akfamily.xyz/) ![GitHub stars](https://img.shields.io/github/stars/akfamily/akshare?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F29-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/akfamily/akshare?style=flat) - Python financial-data interfaces with strong China-market coverage. ([GitHub](https://github.com/akfamily/akshare))
 - [ccxt](https://github.com/ccxt/ccxt) ![GitHub stars](https://img.shields.io/github/stars/ccxt/ccxt?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F29-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/ccxt/ccxt?style=flat) - Unified trading / market-data API across 100+ crypto exchanges and prediction markets (JS / TS, Python, C#, PHP, Go, Java, Rust).
+- [SiftingIO](https://sifting.io/docs) - Real-time REST/WebSocket data and historical REST data for US stocks and ETFs, forex, commodities, and crypto; account/API key required, with a capped free plan for evaluation and internal non-commercial use.
 
 ---
 
