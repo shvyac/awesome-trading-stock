@@ -69,6 +69,7 @@
 - [Hummingbot（英語）](https://hummingbot.org/) ![GitHub stars](https://img.shields.io/github/stars/hummingbot/hummingbot?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F22-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/hummingbot/hummingbot?style=flat) - CEX／DEX コネクタ経由で暗号資産のマーケットメイク・裁定ボットを構築・運用するオープンソースフレームワーク。（[GitHub](https://github.com/hummingbot/hummingbot)）
 - [Lumibot（英語）](https://github.com/Lumiwealth/lumibot) ![GitHub stars](https://img.shields.io/github/stars/Lumiwealth/lumibot?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F15-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Lumiwealth/lumibot?style=flat) - バックテスト・ペーパー・実運用を複数ブローカー（株式・オプション・先物・FX・暗号資産）で扱える Python トレーディングフレームワーク。LLM エージェント連携あり。
 - [bt（英語）](https://pmorissette.github.io/bt/) ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/pmorissette/bt?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F10-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/pmorissette/bt?style=flat) - 再利用可能な algo をツリー構造で組み合わせて戦略を構成する柔軟な Python バックテストフレームワーク。（[GitHub](https://github.com/pmorissette/bt)）
+- [eStockes Reality Check（英語）](https://estockes.com/reality-check) - 米国の株式・ETF を対象に、日足の売買ルールと同一銘柄の買い持ちを同じ期間で比較できる無料のブラウザツール。取引コストの想定を表示し、アカウント登録なしで試せる。
 
 ---
 
